@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+</head>
+
+<body>
+    <section id="menu">
+        <div class="logo">
+            <img src="https://ketnoigiasu.com/storage/1061/loHaXRZqLItuwu7LK5G5xOvrejnnvDgyXIa8cX8z.jpg" alt="">
+            <h2>BK Tutor</h2>
+        </div>
+
+        <div class="items">
+            <ul>
+                <li><a href="#tutor">Gia sư nhận lớp</a></li>
+                <li><a href="#!">Lớp đang chờ</a></li>
+                <li><a href="#!">Lớp đã nhận</a></li>
+                <li><a href="#!">Danh sách gia sư</a></li>
+                <li><a href="#!">Danh sách user</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <div id="interface">
+        <!-- <div id="sign-box">
+            <div class="form-group">
+                <label >Họ tên</label>
+                <input type="text" name="name">
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="text" name="Email">
+            </div>
+            <div class="form-group">
+                <label>Số điện thoại</label>
+                <input type="text" name="Tel">
+            </div>
+            <div class="form-group">
+                <label>Mật khẩu</label>
+                <div class="position-relative">
+                    <input type="password" name="password-current">
+                    <i onclick="changeTypePassWord('password-current', event)"></i>
+                </div>
+            </div>
+            <div>
+                <button id="create">Đăng kí</button>
+            </div>
+        </div> -->
+    
+        <div class="navigation">
+            <div class="n1">
+                <div class="menubar"><img src="./assets/img/bars-solid.svg" alt=""></div>
+                <div id="search" oninput="searchUser">
+                    <img src="./assets/img/magnifying-glass-solid.svg" alt="">
+                    <input type="text" placeholder="search">
+                </div>
+
+                <div class="profile">
+                    <img src="./assets/img/bell-regular.svg" alt="">
+                    <img src="./assets/img/user-regular.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- <h3 class="i-name">Chi tiết</h3> -->
+
+        <div class="values">
+            <div class="val-box">
+                <img src="./assets/img/graduation-cap-solid.svg" alt="">
+                <div>
+                    <h3 class="number"></h3>
+                    <span>Lớp đang chờ</span>
+                </div>
+            </div>
+            <div class="val-box">
+                <img src="./assets/img/graduation-cap-solid.svg" alt="">
+                <div>
+                    <h3>2000</h3>
+                    <span>Gia sư đang chờ</span>
+                </div>
+            </div>
+            <div class="val-box">
+                <img src="./assets/img/graduation-cap-solid.svg" alt="">
+                <div>
+                    <h3>2000</h3>
+                    <span>Lớp đã nhận</span>
+                </div>
+            </div>
+            <div class="val-box">
+                <img src="./assets/img/graduation-cap-solid.svg" alt="">
+                <div>
+                    <h3>2000</h3>
+                    <span>Gia sư</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="board">
+            <table id="tutor" width="100%">
+                <thead>
+                    <tr>
+                        <td>ID</td>
+                        <td>Tên</td>
+                        <td>Số điện thoại</td>
+                        <td>Email</td>
+                        <td>Chi tiết</td>   
+                        <td>Edit</td>
+                    </tr>
+                </thead>
+            </table>
+            <div class="listPage"></div>
+        </div>
+
+     
+    <div id="pagination"></div>
+</div>
+
+</table>
+<div class="listPage"></div>
+
+<script src="main.js">
+   
+</script>
+
+
+</body>
+</html>
